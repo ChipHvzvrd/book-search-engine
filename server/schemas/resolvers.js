@@ -3,8 +3,14 @@ const { User } = require('../models');
 
 const resolvers = {
     Query: {
-      helloWorld: () => {
-        return 'Hello world!';
+
+    },
+    Mutation: {
+      addUser: async () => {
+  
+      },
+      login: async () => {
+  
       }
     }
   };
