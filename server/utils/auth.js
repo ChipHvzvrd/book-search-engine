@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken');
-const { authMiddleware } = require('./utils/auth');
+// const { authMiddleware } = require('../utils/auth');
 require('dotenv').config();
 // set token secret and expiration date
-const secret = process.env.SECRET_KEY;
+const secret = 'IMBATMAN'
 const expiration = '2h';
 
 module.exports = {
